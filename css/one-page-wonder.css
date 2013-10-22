@@ -108,6 +108,8 @@ h1, h2, h3 {
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+            width: 100%;
+            height: auto;
 }
 
 .btn-primary {
