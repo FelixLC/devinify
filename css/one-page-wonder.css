@@ -108,8 +108,6 @@ h1, h2, h3 {
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            width: 100%;
-            height: auto;
 }
 
 .btn-primary {
@@ -168,12 +166,17 @@ h1, h2, h3 {
 
 .tnp{
 	text-align: center;
-	padding-top: 20px;
+	padding: 0px 15px 5px;
 }
 
 .propval, .irritant {
 	text-align: justify;
-	padding: 20px 0px 5px 0px;
+	padding: 10px 0px 5px 0px;
+}
+
+.tnp > h3 {
+	text-align: justify;
+	font-size: 17px;
 }
 
 .irritants{
@@ -188,6 +191,10 @@ h1, h2, h3 {
 
 .savoirplus{
 	text-align: center;
+}
+
+.propcontent{
+	padding-bottom: 15px;
 }
 
 /* ---------------- FEATURETTES ---------------- */
