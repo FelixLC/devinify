@@ -51,6 +51,10 @@ h1, h2, h3 {
     
 }*/
 
+.section{
+	padding-left: 40px;
+	padding-right: 40px;
+}
 
 
 /* ---------------- HEADER ---------------- */
@@ -62,6 +66,7 @@ h1, h2, h3 {
 .tagline{
 	background-color: rgba(128, 0, 0, 1);
 	padding-left: 25px;
+	padding-right: 25px;
 	margin: 15px;
 }
 
@@ -227,12 +232,12 @@ section{
 }
 
 .commentcamarche {
-	padding: 40px 0;
+	padding: 40px;
 
 }
 
 .commentcamarchefin{
-	padding: 40px 0 0 0;
+	padding-top: 40px;
 }
 
 .comment{
@@ -243,7 +248,7 @@ section{
 
 #contact{
 	text-align: justify;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 }
 
 #main{
@@ -384,7 +389,6 @@ footer {
 .featurette-image.pull-right {margin-left: 10px;}
 .featurette-heading {font-size: 30px;}
 .footer-image {
-			margin-top: 20px;	
 			background: url(bouchonsNB3) no-repeat center center; 
             -webkit-background-size: 100%;
             -moz-background-size: 100%;
@@ -392,6 +396,11 @@ footer {
             background-size: 100%;
 }
 }
+
+@media (max-width: 991px) {
+#contact{padding-bottom: 30px;}
+}
+
 
 @media (max-width: 768px) {
 
@@ -405,6 +414,9 @@ footer {
 .container {margin: 0 15px;}
 .featurette-divider {margin: 40px 0;}
 .featurette-heading {font-size: 25px;}
+#lastdivider{
+margin-top: 0px;
+}
 
 }
 
