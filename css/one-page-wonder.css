@@ -364,8 +364,11 @@ footer {
 @media (max-width: 1024px) {
 
 .header-image {
-			width: 100%;
 			background: url(corkscrewsmallipad) no-repeat center center; 
+			 -webkit-background-size: 100%;
+            -moz-background-size: 100%;
+            -o-background-size: 100%;
+            background-size: 100%;
 }
 .tagline > h2 {
 	font-family: ostrich_sansblack;
@@ -383,10 +386,10 @@ footer {
 .footer-image {
 			margin-top: 20px;	
 			background: url(bouchonsNB3) no-repeat center center; 
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
+            -webkit-background-size: 100%;
+            -moz-background-size: 100%;
+            -o-background-size: 100%;
+            background-size: 100%;
 }
 }
 
