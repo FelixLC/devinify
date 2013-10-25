@@ -117,7 +117,7 @@ h1, h2, h3 {
 .btn-primary {
   color: #ffffff;
   font-family: ostrich_sansblack;
-  font-size: 25px;
+  font-size: 40px;
   border-radius:                    0px;
   -webkit-border-radius:            0px;
   -moz-border-radius:               0px;
@@ -126,7 +126,7 @@ h1, h2, h3 {
 
 .headerbeta {
 	padding: 0;
-	margin: -27.5px 15px 15px;
+	margin: -40.5px 15px 15px;
 	text-align: center;
 }
 
