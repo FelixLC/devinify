@@ -201,6 +201,10 @@ h1, h2, h3 {
 	padding-bottom: 15px;
 }
 
+.propcontent > h3{
+	text-align: center;
+}
+
 /* ---------------- FEATURETTES ---------------- */
 
 section{
