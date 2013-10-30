@@ -57,6 +57,7 @@
     
   </head>
 
+
       <script type="text/javascript">
         mixpanel.track("Home");
         mixpanel.track_forms("mc-embedded-subscribe-form", "Form Submission");
@@ -74,7 +75,38 @@
         </div>
     </nav>
 
-    
+    <!-- /.modal-popup -->
+    <div class="modal fade" id="myModalpop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"> Merci d'avoir pris du temps pour répondre à ce questionnaire.</h4>
+            </div>
+            <div class="modal-body" id="questionnaireform">
+               <h3>Vous ne connaissez pas vos goûts ?<br><br> Nous non plus. <br><br>
+                (Re)découvrons les ensemble par la dégustation.</h3><br><br>
+                <!-- Begin MailChimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                <form action="http://vinify.us7.list-manage.com/subscribe/post?u=218bc47385a0a01070ecd4fea&amp;id=0ac4e92acb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <label for="mce-EMAIL">Subscribe to our mailing list</label>
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
     <div class="header-image">
       <div class="logo">
         <p>vinify</p>
@@ -97,13 +129,13 @@
         <div class="section">
           <div class="row headerbeta">
           <!--   <div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset3 headerbeta"> -->
-              <a data-toggle="modal" href="#myModalpop" class="btn btn-primary btn-lg" id="btn1">
+              <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg" id="btn1">
                 JE M'INSCRIS <span class="glyphicon glyphicon-chevron-right" style="vertical-align:-3px"></span></a>
 
                   <div class="form1">
                 
                   <!-- Modal -->
-                  <div class="modal fade hide in" id="myModalpop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
                         <div class="modal-header">
@@ -139,7 +171,6 @@
                               </div>
                               <script type="text/javascript" src="js/mailchimp.js"></script>
                               <!--End mc_embed_signup-->
-                        </div>
                       </div><!-- /.modal-content -->
                     </div><!-- /.modal-dialog -->
                   </div><!-- /.modal -->
@@ -163,7 +194,7 @@
           <div class="col-lg-4 col-md-4 propcontent">
             <div class="row tnp">
               <img src="img/livreur-icon.svg" height="60vh">
-               <h3>Je reçois mes vins au rythme de ma consommation et je les notes</h3>
+               <h3>Je reçois mes vins au rythme de ma consommation et je les note</h3>
             </div>
            
             <p>Je consomme les vins dont j'ai envie, quand j'en ai envie, et je paye au rythme de ma consommation.</p><br>
@@ -373,6 +404,11 @@
   <!-- javascript -->
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('#myModalpop').modal('show');
+    });
+  </script>
 
   </body>
 <!-- AddThis Smart Layers BEGIN -->
