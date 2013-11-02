@@ -70,12 +70,13 @@ body.modal-open,
 	ms-box-sizing: border-box;
 	webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	padding: 18px 20px;
+	padding: 0px 20px;
 	margin: 10px auto;
 	color: #5e6d82;
 	text-align: left;
 	border:none;
 	background-color:#ffffff;
+	vertical-align: middle;
 }
 
 .group-box:hover{
@@ -83,6 +84,7 @@ body.modal-open,
 }
 
 .flat-container{
+	display: inline-block;
 	background-color: white;  
 	border-bottom-left-radius:4px;
   	border-bottom-right-radius:4px;
@@ -91,13 +93,11 @@ body.modal-open,
   	font-family:Lato, Helvetica, Arial, sans-serif;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
     position: relative;
-    display: inline-block;
+   
 }
 
 .flat-container p {
 	margin: 15px 0;
-  height: 100%;
-  line-height: 100%
 }
 
 #nav-collapse-01{
@@ -106,6 +106,12 @@ body.modal-open,
 
 .chateau{
 	color: #34495e;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.wine-info{
+	padding: 15px 10px 5px;
 }
 
 /* ---------------- HEADER ---------------- */
@@ -171,15 +177,7 @@ body.modal-open,
             background-size: cover;
 }
 
-.btn-primary {
-  color: #ffffff;
-  font-family: ostrich_sansblack;
-  font-size: 40px;
-  border-radius:                    0px;
-  -webkit-border-radius:            0px;
-  -moz-border-radius:               0px;
-/*  padding-top: 16px;*/
-}
+
 
 .headerbeta {
 	padding: 0;
