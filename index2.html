@@ -24,6 +24,15 @@
       /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style>
+    
+    <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('#myModalpop').modal('show');
+    });
+  </script>
+
     <script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/vinify-beta/js/mixpanel.js"></script>
      <a name="top"></a>
 
@@ -83,23 +92,35 @@
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
               <h4 class="modal-title"> Merci d'avoir pris du temps pour répondre à ce questionnaire.</h4>
             </div>
-            <div class="modal-body" id="questionnaireform">
-                <h2 class="featurette-heading" style="font-size:90%">Vous ne connaissez pas vos goûts ?<span class="text-muted">Nous non plus, </span> <br> (Re)découvrons les ensemble par la dégustation.</h2>  
+            <div class="modal-body" id="questionnaireform"> 
                 <!-- Begin MailChimp Signup Form -->
-                <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-                <style type="text/css">
-                  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-                  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                </style>
-                <div id="mc_embed_signup">
-                <form action="http://vinify.us7.list-manage.com/subscribe/post?u=218bc47385a0a01070ecd4fea&amp;id=0ac4e92acb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                  <label for="mce-EMAIL">Subscribe to our mailing list</label>
-                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                </form>
-                </div>
-                <!--End mc_embed_signup-->
+				<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+				<style type="text/css">
+					#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+					/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+					   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+				</style>
+				<div id="mc_embed_signup">
+				<form action="http://vinify.us7.list-manage.com/subscribe/post?u=218bc47385a0a01070ecd4fea&amp;id=a1ab60ecf3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<h2>Vous ne connaissez pas vos goûts ? Nous non plus,  (Re)découvrons les ensemble par la dégustation.</h2>
+				<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+				<div class="mc-field-group">
+					<label for="mce-EMAIL">Adresse email  <span class="asterisk">*</span>
+				</label>
+					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+				</div>
+				<div class="mc-field-group">
+					<label for="mce-FNAME">Prénom </label>
+					<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+				</div>
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				</form>
+				</div>
+				<script type="text/javascript" src="js/mailchimp2.js"></script>
+				<!--End mc_embed_signup-->
             </div>
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -402,14 +423,6 @@
     </div><!-- /container -->
   </div>
   <!-- javascript -->
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-        $('#myModalpop').modal('show');
-    });
-  </script>
-  <script src="js/stellar.js"></script>
   </body>
 <!-- AddThis Smart Layers BEGIN -->
 <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
