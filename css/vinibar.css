@@ -100,11 +100,13 @@ body.modal-open,
 }
 
 #vinibar{
-	padding-right: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 #profile{
-	padding-left: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .btn-primary{
