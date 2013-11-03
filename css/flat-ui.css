@@ -234,10 +234,10 @@ p {
   line-height: 1.46428571;
   font-weight: 300;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .lead {
     font-size: 30.006px;
-  }
+  }*/
 }
 small,
 .small {

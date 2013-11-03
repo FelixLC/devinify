@@ -33,7 +33,7 @@ h1, h2, h3 {
 	font-family: quicksandlight;
 	color: #fff;
 	font-size: 45px;
-	text-shadow: 0 2px 20px #000000;
+	text-shadow: 2px 2px 20px #000000;
 }
 
 
@@ -174,12 +174,12 @@ h1, h2, h3 {
 }
 
 .propval, .irritant {
-	text-align: justify;
+	text-align: center;
 	padding: 10px 0px 5px 0px;
 }
 
 .tnp > h3 {
-	text-align: justify;
+	text-align: center;
 	font-size: 17px;
 }
 
