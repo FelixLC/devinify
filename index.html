@@ -375,13 +375,18 @@
 <!-- AddThis Smart Layers BEGIN -->
 <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
 <!-- AddThis Button BEGIN -->
-<div class="addthis_toolbox addthis_default_style">
-<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-<a class="addthis_button_twitter_follow_native"></a>
-</div>
-<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52016b8e0ea633f4"></script>
-<!-- AddThis Button END -->
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent', 
+    'follow' : {
+      'services' : [
+        {'service': 'facebook', 'id': 'vinify.co'},
+        {'service': 'twitter', 'id': 'vinifyco'}
+      ]
+    }   
+  });
+</script>
     <script type="text/javascript">
         var _mfq = _mfq || [];
         (function () {
