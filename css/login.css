@@ -91,10 +91,6 @@ body.modal-open,
   	font-family:Lato, Helvetica, Arial, sans-serif;
 }
 
-.table{
-	margin-top: 20px;
-}
-
 #vinibar{
 	margin-left: 20px;
 	margin-right: 20px;
@@ -127,24 +123,6 @@ body.modal-open,
 #Rue, #Ville{
 	text-align: center;
 	color: #7f8c8d;
-}
-
-#megusta{
-	text-align: center;
-	margin-top: 20px;
-}
-
-.profile-pic{
-	padding-top: 20px;
-	text-align: center;	
-}
-
-.profile-pic img{
-	width: 70px;
-}
-
-.infos{
-	text-align: center;
 }
 
 /* ---------------- VINIBAR ET PROFIL ---------------- */

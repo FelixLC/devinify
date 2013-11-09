@@ -14,8 +14,8 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/font/font.css" rel="stylesheet">
-     <link href="css/vinibar.css" rel="stylesheet">
     <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/vinibar.css" rel="stylesheet">
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <!-- Custom CSS for the 'One Page Wonder' Template -->
@@ -31,30 +31,12 @@
      <a name="top"></a>
 
      <!-- start Mixpanel -->
-     <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
-       b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
-       mixpanel.init("25c59cab316312411dcc8893f5aa3aa5");
-    </script>
     <!-- end Mixpanel -->
 
     <!-- start Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-45220916-1', 'vinify.co');
-      ga('send', 'pageview');
-    </script>
     <!-- end Google Analytics -->
 
     <!-- start CrazyEgg -->
-        <script type="text/javascript">
-    setTimeout(function(){var a=document.createElement("script");
-    var b=document.getElementsByTagName("script")[0];
-    a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0018/8177.js?"+Math.floor(new Date().getTime()/3600000);
-    a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-    </script>
     <!-- end CrazyEgg -->
 
     <script type="text/javascript">
@@ -66,15 +48,6 @@
     </script>
 
   </head>
-
-
-      <script type="text/javascript">
-        mixpanel.track("Home");
-        mixpanel.track_forms("mc-embedded-subscribe-form", "Form Submission");
-        mixpanel.track("btn1");
-        mixpanel.track("btn2");
-        mixpanel.track("mf2");
-      </script>
 
   <body>
     <!-- <div id="top-shadow"></div> -->
@@ -167,6 +140,51 @@
          </div> 
          
         </div>
+
+        <div class="row">
+         <div id="megusta">
+            <p style="height:50px;line-height:50px;font-size:30px;margin-bottom:0;">Les derniers vins que j'ai aimés</p>
+         </div>
+        </div><!--/.row -->
+
+        <div class="row">
+         <div class="flat-container group-box">
+          <table class="table table-condensed table-responsive">
+            <thead>
+              <tr>
+                <th>Domaine</th>
+                <th>Appellation</th>
+                <th>Année</th>
+                <th>Classement</th>
+                <th>Infos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="domaine">Phélan-Ségur</td>
+                <td class="appellation">Saint-Estèphe</td>
+                <td class="annee">2011</td>
+                <td class="classement">*****</td>
+                <td class="infos"><span class="fui-new"></span></td>
+              </tr>
+              <tr>
+                <td class="domaine">Pontet-Canet</td>
+                <td class="appellation">Saint-Estèphe</td>
+                <td class="annee">2011</td>
+                <td class="classement">***</td>
+                <td class="infos"><span class="fui-new"></span></td>
+              </tr>
+              <tr>
+                <td class="domaine">Chateau Pommard</td>
+                <td class="appellation">Pommard</td>
+                <td class="annee">2011</td>
+                <td class="classement">**</td>
+                <td class="infos"><span class="fui-new"></span></td>
+              </tr>
+            </tbody>
+      </table>
+          </div>
+        </div>
       </div><!--/ Vinibar -->
 
       <div class="col-md-3" id="profile"> <!-- Profile -->
@@ -178,28 +196,25 @@
 
         <div class="row">
          <div class="flat-container group-box">
+          <div class="profile-pic">
+          <img class="img-circle" src="img/vinibar/FelixTheCat.jpg">
+          </div>
           <div class="row">
             <div class="wine-info col-md-12">
-                <p style="text-align:center">Jean-Marc Dutroux <br> 12, rue des petits enfants <br> 59 000 ROUBAIX</p>
+                <p id="Nom"><b>Jean-Marc Benjamin</b> </p>
+                <p id="Rue">12, rue des allouettes</p>
+                <p id="Ville">59 000 ROUBAIX</p>
             </div>
           <hr>
           </div>
           <div class="row">
             <div class="wine-info col-md-12">
-              <select name="choix" value="Chateau" class="select-block" style="display: none;">
-                <option value="0">Noter !</option>
-                <option value="1">Commander</option>
-                <option value="2">Informations</option>
-              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Coordonnées</span>&nbsp;<span class="fui-user pull-right" style="vertical-align:middle"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+              <div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Changer mes coordonnées</span>&nbsp;<span class="fui-user pull-right" style="vertical-align:middle"></span></div>
             </div>       
           </div>
           <div class="row">
-            <div class="wine-info col-md-12">
-              <select name="choix" value="Chateau" class="select-block" style="display: none;">
-                <option value="0">Noter !</option>
-                <option value="1">Commander</option>
-                <option value="2">Informations</option>
-              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Contact</span>&nbsp;<span class="fui-mail pull-right"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+            <div class="wine-info col-md-12"> 
+               <div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Nous Contacter</span>&nbsp;<span class="fui-mail pull-right" style="vertical-align:middle"></span></div>
             </div>
           </div>
          </div> 
@@ -208,15 +223,7 @@
       </div><!--/ profile -->
 
       <div class="row">
-        <div class="col-md-6">
-         <div class="flat-container group-box">
-          <div class="row">
-          
-          <a href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="Tooltip on left">bitch</a>
-          salut
-          </div>
-        </div>
-      </div>
+       
       </div>
 
 
@@ -225,7 +232,7 @@
        
     
 
-  <div class="section irritant" id="footer">
+  <div class="section palette-midnight-blue" id="footer">
     <div class="container">
 
       <!-- FOOTER -->
@@ -238,7 +245,6 @@
 
     </div><!-- /container -->
   </div>
-  <!-- javascript -->
 
   </body>
 <!-- AddThis Smart Layers BEGIN -->

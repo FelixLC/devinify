@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Vinify</title>
+
+    <!-- Bootstrap core CSS -->
+    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font/font.css" rel="stylesheet">
+  
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Custom CSS for the 'One Page Wonder' Template -->
+   
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Asap:400,700' rel='stylesheet' type='text/css'>
+
+     <!-- start Mixpanel -->
+
+  </head>
+
+
+  <body>
+
+    <div class="section" id="login">
+      <div class="row">
+      <div class="col-md-4 col-md-offset-4" id="profile"> <!-- Profile -->
+        <div class="row">
+         <div class="palette-pomegranate" id="vini-header">
+            <p style="height:50px;line-height:50px;font-size:30px;text-align:center;">Login</p>
+         </div>
+        </div><!--/.row -->
+
+        <div class="row">
+         <div class="flat-container group-box">
+          <div class="row">
+           <form id="login-form" action="/login_check" method="post">
+            <input type="hidden" name="_csrf_token" value="bc39749e85f25ca63422bccfd5e450a737b4d9c2">
+            <div>
+                <input type="text" id="username" placeholder="Username or Email" name="_username" value="" required="required">
+            </div>
+            <div>
+                <input type="password" id="password" placeholder="Password" name="_password" required="required">
+            </div>
+            <div>
+                <label class="checkbox" for="remember_me" style="display:inline-block">
+                <span class="icons"><span class="first-icon fui-checkbox-unchecked"></span><span class="second-icon fui-checkbox-checked"></span></span><input class="login-check-box" type="checkbox" id="remember_me" name="_remember_me" value="on" data-toggle="checkbox">
+                Remember me
+                </label>
+            </div>
+
+            <input type="submit" class="btn btn-success" id="_submit" name="_submit" value="Login" style="width:160px; margin-top: 10px;">
+            <br>
+            <a href="#forgotPasswordModal" data-toggle="modal" style="font-size:11px">Forgot your password ?</a>
+        </form>
+          <hr>
+          </div>
+          <div class="row">
+            <div class="wine-info col-md-12">
+              <select name="choix" value="Chateau" class="select-block" style="display: none;">
+                <option value="0">Noter !</option>
+                <option value="1">Commander</option>
+                <option value="2">Informations</option>
+              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Coordonnées</span>&nbsp;<span class="fui-user pull-right" style="vertical-align:middle"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+            </div>       
+          </div>
+          <div class="row">
+            <div class="wine-info col-md-12">
+              <select name="choix" value="Chateau" class="select-block" style="display: none;">
+                <option value="0">Noter !</option>
+                <option value="1">Commander</option>
+                <option value="2">Informations</option>
+              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Contact</span>&nbsp;<span class="fui-mail pull-right"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+            </div>
+          </div>
+         </div> 
+         
+        </div>
+      </div><!--/ profile -->
+      </div>
+      
+
+      <div id="wrapper">
+
+  <form name="login-form" class="login-form" action="" method="post">
+  
+    <div class="header">
+    <h1>Login Form</h1>
+    <span>Fill out the form below to login to my super awesome imaginary control panel.</span>
+    </div>
+  
+    <div class="content">
+    <input name="username" type="text" class="input username" placeholder="Username" />
+    <div class="user-icon"></div>
+    <input name="password" type="password" class="input password" placeholder="Password" />
+    <div class="pass-icon"></div>   
+    </div>
+
+    <div class="footer">
+    <input type="submit" name="submit" value="Login" class="button" />
+    <input type="submit" name="submit" value="Register" class="register" />
+    </div>
+  
+  </form>
+
+</div>
+<div class="gradient"></div>
+
+
+
+<div class="row">
+      <!-- FOOTER -->
+      <footer>
+        <p>
+          Copyright &copy; Vinify 2013 &middot; L'abus d'alcool est dangereux pour la santé, à consommer avec modération.
+        </p>
+      </footer>
+      <!-- /END OF FOOTER -->
+</div>
+
+</div>
+
+
+  </body>
+<!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52016b8e0ea633f4"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent', 
+    'follow' : {
+      'services' : [
+        {'service': 'facebook', 'id': 'vinify.co'},
+        {'service': 'twitter', 'id': 'vinifyco'}
+      ]
+    }   
+  });
+</script>
+    <script type="text/javascript">
+        var _mfq = _mfq || [];
+        (function () {
+        var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true;
+        mf.src = "//cdn.mouseflow.com/projects/1d6c142e-d03b-4e98-8484-4bb362c3b084.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+      })();
+    </script>
+<!-- AddThis Smart Layers END -->
+</html>
