@@ -147,6 +147,42 @@ body.modal-open,
 	text-align: center;
 }
 
+
+.pic{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.pic img {
+	width: 140px;
+}
+
+.rating {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 2px;
+}
+.rating-input {
+  position: absolute;
+  left: 0;
+  top: -500px;
+}
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+  background-position: 0 0;
+}
+.rating-star,
+.rating:hover .rating-star {
+  float: right;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('http://kubyshkin.ru/samples/star-rating/star.png') 0 -16px;
+  }
+
+
 /* ---------------- VINIBAR ET PROFIL ---------------- */
 
 footer {
