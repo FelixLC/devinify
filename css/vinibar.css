@@ -69,7 +69,7 @@ body.modal-open,
 
 
 
-/* ---------------- VINIBAR ET PROFIL ---------------- */
+/* ---------------- VINIBAR ---------------- */
 
 #vini-header{
 	height:50px;
@@ -91,9 +91,7 @@ body.modal-open,
   	font-family:Lato, Helvetica, Arial, sans-serif;
 }
 
-.table{
-	margin-top: 20px;
-}
+
 
 #vinibar{
 	margin-left: 20px;
@@ -115,9 +113,7 @@ body.modal-open,
 	padding: 15px 10px 5px;
 }
 
-#bitch{
-	margin-top: 40px;
-}
+/* ---------------- PROFIL ---------------- */
 
 #Nom{
 	text-align: center;
@@ -143,13 +139,29 @@ body.modal-open,
 	width: 70px;
 }
 
+
+
+/* ---------------- LIKED WINES ---------------- */
+
+.table{
+	margin-top: 20px;
+}
+
 .infos{
 	text-align: center;
 }
 
 
-.pic{
+
+
+/* ---------------- MODAL ---------------- */
+
+.notevin{
 	text-align: center;
+
+}
+
+.pic{
 	margin-bottom: 20px;
 }
 
@@ -158,8 +170,6 @@ body.modal-open,
 }
 
 
-
-/* ---------------- VINIBAR ET PROFIL ---------------- */
 
 footer {
 	margin: 20px 0;
@@ -190,6 +200,9 @@ footer {
 
 
 @media (max-width: 668px) {
+
+	#LastWines table td:nth-child(2), 
+	#LastWines table th:nth-child(2) {display: none;}
 
 }
 

@@ -64,7 +64,7 @@
 
   </head>
 
-  <body>
+<body>
     <!-- <div id="top-shadow"></div> -->
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
        
@@ -73,144 +73,151 @@
         </div>
     </nav>
 
-    <div class="section">
+<div class="section">
+    <div class="row"><!-- Row Body -->
+
       <div class="col-md-8" id="vinibar"> <!-- Vinibar -->
         <div class="row">
-         <div class="palette-pomegranate" id="vini-header">
+         <div class="col-md-12 palette-pomegranate" id="vini-header">
             <p style="height:50px;line-height:50px;font-size:30px;">Mon vinibar</p>
          </div>
         </div><!--/.row -->
 
         <div class="row">
-         <div class="flat-container group-box">
-          <div class="row">
-            <div class="wine-info col-md-4">
+         <div class="col-md-8 flat-container group-box">
+            <div class="row">
+              <div class="wine-info col-md-4">
+                  <select name="choix" value="Chateau" class="select-block" style="display: none;">
+                  <option value="0">Noter !</option>
+                  <option value="1">Commander</option>
+                  <option value="2">Informations</option>
+                </select>
+                <div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" data-toggle="modal" data-target="#modalnote" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" data-toggle="modal" data-target="#modalbouteille" class=""><span class="pull-left">Informations</span></a></li></div>
+              </div>
+
+              <div class="wine-info col-md-4">
                 <select name="choix" value="Chateau" class="select-block" style="display: none;">
-                <option value="0">Noter !</option>
-                <option value="1">Commander</option>
-                <option value="2">Informations</option>
-              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" data-toggle="modal" data-target="#modalnote" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" data-toggle="modal" data-target="#modalbouteille" class=""><span class="pull-left">Informations</span></a></li></div>
+                  <option value="0">Noter !</option>
+                  <option value="1">Commander</option>
+                  <option value="2">Informations</option>
+                </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+              </div>
+              <div class="wine-info col-md-4">
+                  <select name="choix" value="Chateau" class="select-block" style="display: none;">
+                  <option value="0">Noter !</option>
+                  <option value="1">Commander</option>
+                  <option value="2">Informations</option>
+                </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+              </div>
             </div>
-            <div class="wine-info col-md-4">
-              <select name="choix" value="Chateau" class="select-block" style="display: none;">
-                <option value="0">Noter !</option>
-                <option value="1">Commander</option>
-                <option value="2">Informations</option>
-              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
-            </div>
-            <div class="wine-info col-md-4">
+            <div class="row">
+              <div class="wine-info col-md-4">
+                  <select name="choix" value="Chateau" class="select-block" style="display: none;">
+                  <option value="0">Noter !</option>
+                  <option value="1">Commander</option>
+                  <option value="2">Informations</option>
+                </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+              </div>
+              <div class="wine-info col-md-4">
                 <select name="choix" value="Chateau" class="select-block" style="display: none;">
-                <option value="0">Noter !</option>
-                <option value="1">Commander</option>
-                <option value="2">Informations</option>
-              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+                  <option value="0">Noter !</option>
+                  <option value="1">Commander</option>
+                  <option value="2">Informations</option>
+                </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+              </div>
+              <div class="wine-info col-md-4">
+                  <select name="choix" value="Chateau" class="select-block" style="display: none;">
+                  <option value="0">Noter !</option>
+                  <option value="1">Commander</option>
+                  <option value="2">Informations</option>
+                </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="wine-info col-md-4">
+            <div class="row">
+              <div class="wine-info col-md-4">
+                  <select name="choix" value="Chateau" class="select-block" style="display: none;">
+                  <option value="0">Noter !</option>
+                  <option value="1">Commander</option>
+                  <option value="2">Informations</option>
+                </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+              </div>
+              <div class="wine-info col-md-4">
                 <select name="choix" value="Chateau" class="select-block" style="display: none;">
-                <option value="0">Noter !</option>
-                <option value="1">Commander</option>
-                <option value="2">Informations</option>
-              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+                  <option value="0">Noter !</option>
+                  <option value="1">Commander</option>
+                  <option value="2">Informations</option>
+                </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+              </div>
+              <div class="wine-info col-md-4">
+                  <select name="choix" value="Chateau" class="select-block" style="display: none;">
+                  <option value="0">Noter !</option>
+                  <option value="1">Commander</option>
+                  <option value="2">Informations</option>
+                </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
+              </div>
             </div>
-            <div class="wine-info col-md-4">
-              <select name="choix" value="Chateau" class="select-block" style="display: none;">
-                <option value="0">Noter !</option>
-                <option value="1">Commander</option>
-                <option value="2">Informations</option>
-              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
-            </div>
-            <div class="wine-info col-md-4">
-                <select name="choix" value="Chateau" class="select-block" style="display: none;">
-                <option value="0">Noter !</option>
-                <option value="1">Commander</option>
-                <option value="2">Informations</option>
-              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="wine-info col-md-4">
-                <select name="choix" value="Chateau" class="select-block" style="display: none;">
-                <option value="0">Noter !</option>
-                <option value="1">Commander</option>
-                <option value="2">Informations</option>
-              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
-            </div>
-            <div class="wine-info col-md-4">
-              <select name="choix" value="Chateau" class="select-block" style="display: none;">
-                <option value="0">Noter !</option>
-                <option value="1">Commander</option>
-                <option value="2">Informations</option>
-              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
-            </div>
-            <div class="wine-info col-md-4">
-                <select name="choix" value="Chateau" class="select-block" style="display: none;">
-                <option value="0">Noter !</option>
-                <option value="1">Commander</option>
-                <option value="2">Informations</option>
-              </select><div class="btn-group select select-block"><button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"><span class="filter-option pull-left">Chateau La Moule</span>&nbsp;<span class="caret"></span></button><span class="dropdown-arrow dropdown-arrow-inverse"></span><ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;"><li rel="0"><a tabindex="-1" href="#" class=""><span class="pull-left">Noter !</span></a></li><li rel="1"><a tabindex="-1" href="#" class=""><span class="pull-left">Commander</span></a></li><li rel="2"><a tabindex="-1" href="#" class=""><span class="pull-left">Informations</span></a></li></div>
-            </div>
-          </div>
          </div> 
-         
         </div>
 
         <div class="row">
-         <div id="megusta">
-            <p style="height:50px;line-height:50px;font-size:30px;margin-bottom:0;">Les derniers vins que j'ai aimés</p>
-         </div>
-        </div><!--/.row -->
+          <div class="col-md-12" id="LikedWines"> <!-- LikedWines -->
+            <div class="row">
+             <div id="megusta" class="col-md-8">
+                <p style="height:50px;line-height:50px;font-size:30px;margin-bottom:0;">Les derniers vins que j'ai aimés</p>
+             </div>
+            </div><!--/.row -->
 
-        <div class="row">
-         <div class="flat-container group-box">
-          <table class="table table-condensed table-responsive">
-            <thead>
-              <tr>
-                <th>Domaine</th>
-                <th>Appellation</th>
-                <th>Année</th>
-                <th>Classement</th>
-                <th>Infos</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="domaine">Phélan-Ségur</td>
-                <td class="appellation">Saint-Estèphe</td>
-                <td class="annee">2011</td>
-                <td class="classement">*****</td>
-                <td class="infos"><span class="fui-new"></span></td>
-              </tr>
-              <tr>
-                <td class="domaine">Pontet-Canet</td>
-                <td class="appellation">Saint-Estèphe</td>
-                <td class="annee">2011</td>
-                <td class="classement">***</td>
-                <td class="infos"><span class="fui-new"></span></td>
-              </tr>
-              <tr>
-                <td class="domaine">Chateau Pommard</td>
-                <td class="appellation">Pommard</td>
-                <td class="annee">2011</td>
-                <td class="classement">**</td>
-                <td class="infos"><span class="fui-new"></span></td>
-              </tr>
-            </tbody>
-      </table>
-          </div>
+            <div class="row">
+             <div class="col-md-12 flat-container group-box">
+              <table class="table table-condensed" id="LastWines">
+                <thead>
+                  <tr>
+                    <th>Domaine</th>
+                    <th>Appellation</th>
+                    <th>Année</th>
+                    <th>Classement</th>
+                    <th>Infos</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="domaine">Phélan-Ségur</td>
+                    <td class="appellation">Saint-Estèphe</td>
+                    <td class="annee">2011</td>
+                    <td class="classement">*****</td>
+                    <td class="infos"><span class="fui-new"></span></td>
+                  </tr>
+                  <tr>
+                    <td class="domaine">Pontet-Canet</td>
+                    <td class="appellation">Saint-Estèphe</td>
+                    <td class="annee">2011</td>
+                    <td class="classement">***</td>
+                    <td class="infos"><span class="fui-new"></span></td>
+                  </tr>
+                  <tr>
+                    <td class="domaine">Chateau Pommard</td>
+                    <td class="appellation">Pommard</td>
+                    <td class="annee">2011</td>
+                    <td class="classement">**</td>
+                    <td class="infos"><span class="fui-new"></span></td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+            </div>
+          </div> <!--/ LikedWines -->
         </div>
       </div><!--/ Vinibar -->
 
       <div class="col-md-3" id="profile"> <!-- Profile -->
         <div class="row">
-         <div class="palette-pomegranate" id="vini-header">
+         <div class="col-md-12 palette-pomegranate" id="vini-header">
             <p style="height:50px;line-height:50px;font-size:30px;text-align:right;">Mon Profil</p>
          </div>
         </div><!--/.row -->
 
         <div class="row">
-         <div class="flat-container group-box">
+         <div class="col-md-12 flat-container group-box">
           <div class="profile-pic">
           <img class="img-circle" src="img/vinibar/FelixTheCat.jpg">
           </div>
@@ -220,7 +227,7 @@
                 <p id="Rue">12, rue des allouettes</p>
                 <p id="Ville">59 000 ROUBAIX</p>
             </div>
-          <hr>
+            <hr>
           </div>
           <div class="row">
             <div class="wine-info col-md-12">
@@ -235,15 +242,12 @@
          </div> 
          
         </div>
-      </div><!--/ profile -->
+      </div><!--/ Profile -->
 
-      <div class="row">
-       
-      </div>
+    </div><!-- /Row Body -->
+</div>      
 
 
-    </div><!--/.section -->
-     
 
       <!-- MODAL -->
 
@@ -274,19 +278,22 @@
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
               <h4 class="modal-title">Chateau La Moule - 2011</h4>
             </div>
-            <div class="modal-body">
-              <div class="pic">
-              <img src="img/chateaumoule.jpg" class="img-thumbnail">
+            <div class="modal-body notevin">
+              <div class="row">
+                <div class="pic col-md-4">
+                <img src="img/chateaumoule.jpg" class="img-thumbnail">
+                </div>
+                <div class="col-md-8">
+                  <p>Je note mon vin:&nbsp;&nbsp;
+                   <input type="number" data-max="4" data-min="0" name="note_vin" id="rating_vin" class="rating"/>
+                  </p>
+                  <p> Je l'ai trouvé  </p>
+                   <input name="tagsinput" id="tagsinput" class="tagsinput" value="Acide,Tannique,Corsé,Fruité" style="display: none;">
+                  <p style="text-align:right;"><small>cliquer sur un tag pour le supprimer </small></p>
+                </div>
               </div>
-              <p>Je note mon vin sur 5:&nbsp;&nbsp;
-               <input type="number" name="your_awesome_parameter" id="some_id" class="rating" data-max="5"/>
-              </p>
-              <p> Je l'ai trouvé  </p>
-               <input name="tagsinput" id="tagsinput" class="tagsinput" value="Acide,Tannique,Corsé,Fruité" style="display: none;">
-              <p style="text-align:right;"><small>cliquer sur un tag pour le supprimer </small></p>
-
-              
             </div>
+
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Enregistrer</button> 
             </div>
@@ -297,7 +304,6 @@
     
 
   <div class="section palette-midnight-blue" id="footer">
-    <div class="container">
 
       <!-- FOOTER -->
       <footer>
@@ -307,7 +313,6 @@
       </footer>
       <!-- /END OF FOOTER -->
 
-    </div><!-- /container -->
   </div>
 
   </body>

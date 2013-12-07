@@ -15,6 +15,11 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/font/font.css" rel="stylesheet">
 
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+
+
     <!-- Custom CSS for the 'One Page Wonder' Template -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicon.png" />
@@ -25,13 +30,7 @@
          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style>
     
-    <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-        $('#myModalpop').modal('show');
-    });
-  </script>
+
 
     <script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/vinify-beta/js/mixpanel.js"></script>
      <a name="top"></a>
@@ -63,6 +62,14 @@
     </script>
     <!-- end CrazyEgg -->
 
+    <script type="text/javascript">
+    $(document).ready(function() {
+
+        $(window).stellar();
+
+    });
+    </script>
+
     
   </head>
 
@@ -76,6 +83,7 @@
       </script>
 
   <body>
+
     <!-- <div id="top-shadow"></div> -->
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
        
@@ -84,50 +92,9 @@
         </div>
     </nav>
 
-    <!-- /.modal-popup -->
-    <div class="modal fade" id="myModalpop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title"> Merci d'avoir pris du temps pour répondre à ce questionnaire.</h4>
-            </div>
-            <div class="modal-body" id="questionnaireform"> 
-                <!-- Begin MailChimp Signup Form -->
-				<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-				<style type="text/css">
-					#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-					/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-					   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-				</style>
-				<div id="mc_embed_signup">
-				<form action="http://vinify.us7.list-manage.com/subscribe/post?u=218bc47385a0a01070ecd4fea&amp;id=a1ab60ecf3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-					<h2>Si vous voulez en savoir plus et participer à la version beta, laissez-nous votre email !</h2>
-				<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-				<div class="mc-field-group">
-					<label for="mce-EMAIL">Adresse email  <span class="asterisk">*</span>
-				</label>
-					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-				</div>
-				<div class="mc-field-group">
-					<label for="mce-FNAME">Prénom </label>
-					<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-				</div>
-					<div id="mce-responses" class="clear">
-						<div class="response" id="mce-error-response" style="display:none"></div>
-						<div class="response" id="mce-success-response" style="display:none"></div>
-					</div>	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-				</form>
-				</div>
-				<script type="text/javascript" src="js/mailchimp2.js"></script>
-				<!--End mc_embed_signup-->
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
 
 
-    <div class="header-image">
+    <div class="header-image" data-stellar-ratio="2">
 
       <div class="logo">
         <p>vinify</p>
@@ -419,6 +386,7 @@
   </body>
 <!-- AddThis Smart Layers BEGIN -->
 <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<!-- AddThis Button BEGIN -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52016b8e0ea633f4"></script>
 <script type="text/javascript">
   addthis.layers({
