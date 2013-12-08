@@ -20,8 +20,20 @@
 	margin-top: 50px;
 }
 
+#title{
+	color: #34495E;
+	text-align: center;
+	font-family: 'Source Sans Pro';
+}
+
 .social{
 	margin: 40px;
+}
+
+#submit{
+	font-size: 0.8em;
+	text-align: center;
+	color: #34495E;
 }
 
 body {
