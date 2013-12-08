@@ -1,0 +1,36 @@
+#formcontainer {
+	padding: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	-webkit-border-image:url(../img/mail.png) 3 3 round; /* Safari 3 */
+	-o-border-image:url(../img/mail.png) 3 3 round; /* Opera */
+	border-image:url(../img/mail.png) 3 3 round;
+	border-width: 3px;
+}
+
+#title{
+	color: #fff;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.social{
+	margin: 40px;
+}
+
+body {
+	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	background: url(debut_light.png);
+}
+
+h1, h2, h3 {
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+footer{
+	background-color: transparent;
+	text-align: right;
+}
