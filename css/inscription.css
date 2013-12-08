@@ -1,6 +1,7 @@
 #formcontainer {
 	padding: 30px;
-	margin-top: 30px;
+	padding-top: 10px;
+	
 	margin-bottom: 30px;
 	background-color: #fff;
 	-webkit-border-image:url(../img/mail.png) 3 3 round; /* Safari 3 */
@@ -8,11 +9,15 @@
 	border-image:url(../img/mail.png) 3 3 round;
 	border-width: 3px;
 }
+.navbar-header{
+	padding: 8px;
+}
 
 #title{
-	color: #fff;
+	color: #34495E;
 	text-align: center;
-	margin-left: 20px;
+	font-family: 'Source Sans Pro';
+	margin-top: 50px;
 }
 
 .social{
