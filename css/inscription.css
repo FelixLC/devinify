@@ -36,6 +36,13 @@
 	color: #34495E;
 }
 
+#contactbenj{
+	font-size: 0.8em;
+	text-align: center;
+	color: #34495E;
+	font-family: Helvetica;
+}
+
 body {
 	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
