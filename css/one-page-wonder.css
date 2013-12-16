@@ -36,6 +36,26 @@ h1, h2, h3 {
 	text-shadow: 2px 2px 20px #000000;
 }
 
+.wrapper span{
+	color:white;
+	background-color:#4FADE3;
+	background-position:initial initial;
+	background-repeat:initial initial;
+	font-size:11px;
+	padding:2px 32px;
+	position:absolute;
+	right:-32px;
+	text-align:center;
+	text-transform:uppercase;
+	top:5px;
+	margin-right: 5px;
+	background:#4fade3;
+	transform:rotate(40deg);
+	-ms-transform:rotate(40deg);
+	-moz-transform:rotate(40deg);
+	-webkit-transform:rotate(40deg);
+	-o-transform:rotate(40deg);
+}
 
 /*#top-shadow {
     position: fixed;
