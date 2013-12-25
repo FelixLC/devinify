@@ -183,6 +183,11 @@ h1, h2, h3 {
 	margin: -50%;
 }
 
+#overlay {
+	background: url(../img/overlay-slider.png) 0 0;
+	color: #fff;
+}
+
 /* ---------------- PROPVAL ---------------- */
 
 .comment{
@@ -316,7 +321,7 @@ section{
 }
 
 #main, #selection, #contact > p {
-	font-size: 18px;
+	font-size: 14px;
 }
 
 /* ---------------- FOOTER ---------------- */
@@ -400,7 +405,7 @@ footer {
 .tagline > h2 {font-size: 40px;}
 .featurette-image.pull-left {margin-right: 20px;}
 .featurette-image.pull-right {margin-left: 20px;}
-.featurette-heading {font-size: 35px;}
+.featurette-heading {font-size: 25px;}
 
 }
 
