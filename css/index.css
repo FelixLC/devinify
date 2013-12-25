@@ -4,7 +4,7 @@
 body {
 	margin-top: 0px; /* 50px is the height of the navbar - change this if the navbar height changes */
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 h1, h2, h3 {
@@ -188,9 +188,10 @@ color: #fff;
 }
 
 #overlay {
-	/*background: url(../img/overlay-slider.png) 0 0;*/
+	background: url(../img/overlay-slider.png) 0 0;
 	color: #fff;
-	text-shadow: rgba(0, 0, 0, 0.247059) 0 3px 3px;
+	padding-top: 10px;
+/*	text-shadow: rgba(0, 0, 0, 0.247059) 0 3px 3px;*/
 }
 
 /* ---------------- PROPVAL ---------------- */
@@ -305,6 +306,7 @@ section{
 
 #selection{
 	text-align: justify;
+	padding-top: 100px;
 }
 
 #about{
@@ -429,7 +431,7 @@ footer {
 	font-weight: 400;
 	padding-top: 9px;
 	padding-bottom: 6px;
-	/*text-shadow: 0 2px 20px #000000;*/
+	text-shadow: 0 2px 20px #000000;
 }
 .featurette-divider {margin: 40px 0;}
 .featurette-image {max-width: 50%;}
