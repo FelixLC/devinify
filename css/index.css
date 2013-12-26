@@ -67,10 +67,6 @@ h1, h2, h3 {
     
 }*/
 
-.section{
-	padding-left: 40px;
-	padding-right: 40px;
-}
 
 .navbar-inverse .navbar-nav > li > a {
 color: #fff;
@@ -80,7 +76,7 @@ color: #fff;
 /* ---------------- HEADER ---------------- */
 
 .headline {
-	padding: 80px 0px 140px;
+	padding: 80px 0px 80px;
 }
 
 .tagline{
@@ -125,7 +121,7 @@ color: #fff;
 }
 
 
-.header-image {
+#header-image {
 			margin: 0;
 			padding: 0;	
 			background: url(corkscrew.jpg) no-repeat center center fixed; 
@@ -234,10 +230,7 @@ color: #fff;
 
 /* ---------------- FEATURETTES ---------------- */
 
-section{
-	display: inline-block;
-	vertical-align: middle;
-}
+
 
 .featurette-divider {
 	margin: 0 0;
@@ -368,7 +361,7 @@ section{
 
 
 
-.footer-image {
+#footer-image {
 			background: url(bouchonsNB3) no-repeat center center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
