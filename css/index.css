@@ -25,12 +25,12 @@ h1, h2, h3 {
 }
 
 .loginbtn {
-	background-color: #428BCA;
+	background-color: transparent;
 	color: #ffffff;
 	padding: 10px;
 	margin-right: 15px;
 	border-radius: 50px;
-	width: 200px;
+
 }
 
 #centervini{
@@ -53,26 +53,6 @@ h1, h2, h3 {
 	text-shadow: 2px 2px 20px #000000;
 }
 
-.wrapper span{
-	color:white;
-	background-color:#4FADE3;
-	background-position:initial initial;
-	background-repeat:initial initial;
-	font-size:11px;
-	padding:2px 32px;
-	position:absolute;
-	right:-32px;
-	text-align:center;
-	text-transform:uppercase;
-	top:5px;
-	margin-right: 5px;
-	background:#4fade3;
-	transform:rotate(40deg);
-	-ms-transform:rotate(40deg);
-	-moz-transform:rotate(40deg);
-	-webkit-transform:rotate(40deg);
-	-o-transform:rotate(40deg);
-}
 
 /*#top-shadow {
     position: fixed;
@@ -100,11 +80,11 @@ color: #fff;
 /* ---------------- HEADER ---------------- */
 
 .headline {
-	padding: 80px 0px 80px;
+	padding: 80px 0px 140px;
 }
 
 .tagline{
-/*	background-color: rgba(128, 0, 0, 1);*/
+	background-color: rgba(128, 0, 0, 1);
 	padding-left: 25px;
 	padding-right: 25px;
 	margin: 15px;
@@ -148,7 +128,7 @@ color: #fff;
 .header-image {
 			margin: 0;
 			padding: 0;	
-			background: url(../img/vinibar-noel.jpg) no-repeat center center fixed; 
+			background: url(corkscrew.jpg) no-repeat center center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -159,6 +139,7 @@ color: #fff;
   color: #ffffff;
   font-family: Montserrat;
   font-size: 20px;
+  border-color: transparent;
 
 /*  padding-top: 16px;*/
 }
