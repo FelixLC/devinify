@@ -124,7 +124,7 @@ color: #fff;
 #header-image {
 			margin: 0;
 			padding: 0;	
-			background: url(corkscrew.jpg) no-repeat center center fixed; 
+			background: url(corkscrew.jpg) no-repeat center center; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
