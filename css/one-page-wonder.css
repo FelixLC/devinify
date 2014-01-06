@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300|Montserrat);
 
 body {
-	margin-top: 0px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 300;
 }
@@ -187,6 +186,10 @@ color: #fff;
 
 /* ---------------- PROPVAL ---------------- */
 
+.dessins {
+	max-height: 300px;
+}
+
 .comment{
 	display:table;
 }
@@ -324,7 +327,7 @@ section{
 /* ---------------- FOOTER ---------------- */
 
 .footline {
-	padding: 90px 0px 90px;
+	padding: 160px 0px 160px;
 }
 
 .footline > .container > h1 {
@@ -378,6 +381,7 @@ section{
 
 
 .footer-image {
+			margin-top: 40px;
 			background: url(bouchonsNB3) no-repeat center center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
