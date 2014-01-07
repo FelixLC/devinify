@@ -29,6 +29,18 @@ h1, h2, h3 {
 	border-radius: 50px;
 }
 
+.mini-loginbtn {
+	color: #800000;
+	background-color: #fff;
+	border-color: #fff;
+	border-radius: 50px;
+	margin-bottom: 10px; 
+}
+
+.mini-loginbtn-container {
+	text-align: center;
+}
+
 .btn-primary {
   color: #ffffff;
   font-family: Montserrat;
@@ -106,6 +118,12 @@ color: #fff;
 
 .headline {
 	padding: 80px 0px 80px;
+	margin-bottom: 20px;
+}
+
+.headline {
+	padding: 10px 0px 10px;
+	margin-bottom: 10px;
 }
 
 .tagline{
@@ -115,6 +133,12 @@ color: #fff;
 	margin: 15px;
 }
 
+.tagline-xs{
+	color: #fff;
+	margin: 5px;
+	text-align: center;
+	padding-bottom: 20px;
+}
 
 .tagline > h2 {
 	font-family: ostrich_sansbold;
@@ -158,6 +182,12 @@ color: #fff;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+}
+
+.header-xs {
+			margin: 0;
+			padding: 0;	
+			background-color: rgb(128, 0, 0);
 }
 
 .headerbeta {
@@ -458,9 +488,7 @@ footer {
 .container {margin: 0 15px;}
 .featurette-divider {margin: 40px 0;}
 .featurette-heading {font-size: 25px;}
-#lastdivider{
-margin-top: 0px;
-}
+
 
 }
 
@@ -494,25 +522,38 @@ margin-top: 0px;
 
 @media (max-width: 375px) {
 
-.header-image {
-			width: 100%;
-			background: url(corkscrewxsmall.png) no-repeat center center; }	
-
-.tagline > h2 {
-	padding-top: 1px;
-	padding-bottom: 1px;
-	font-family: ASAP;
-	font-size: 10px;
-	font-weight: 400;
-
-}
-.btn-primary{
-	font-size: 8px;
-	font-family: ASAP;
+h1 {
+	font-size: 20px;
 }
 
-.xtralight{
-	font-size: 70%;
+h3 {
+	font-size: 15px;
 }
 
+.section {
+	padding: 0px;
+}
+
+.commentcamarche h2 {
+	text-align: center;
+	font-size: 17px;
+}
+
+#main, #selection, #contact > p {
+	text-align: center;
+	font-size: 14px;
+}
+
+.commentcamarchefin h2 {
+	text-align: center;
+	font-size: 17px;
+}
+
+#selection {
+	margin-top: 30px;
+}
+
+.ymm-how-to .heading h3 {
+	font-size: 19px;
+}
 }
