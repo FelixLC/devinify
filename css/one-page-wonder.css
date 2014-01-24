@@ -13,6 +13,37 @@ h1, h2, h3 {
 	text-align: center;
 }
 
+.comingsoon {
+	position: absolute;
+  	top: 50%;
+  	-webkit-transform: translate(50%, -50%);
+  	-ms-transform: translate(50%, -50%);
+  	transform: translate(50%, -50%);
+  	color: #fff;
+  	font-weight: 400;
+  	font-family: ostrich_sansbold;
+  	font-size: 40px;
+  	padding-right: 50%;
+}
+
+
+
+.comingsoon-cover {
+	text-align: left;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin: 0;
+	padding: 0;	
+	background: url(blurredbottle.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /* ---------------- NAVBAR ---------------- */
 
 .navbar-inverse {
@@ -502,6 +533,25 @@ footer {
 }
 
 @media (max-width: 640px) {
+
+.comingsoon {
+	text-align: right;
+  	-webkit-transform: translate(0, -50%);
+  	-ms-transform: translate(0, -50%);
+  	transform: translate(0, -50%);
+  	color: #fff;
+  	font-weight: 400;
+  	font-family: Open Sans;
+  	font-size: 15px;
+  	padding-right: 20px;
+  	padding-left: 50%;
+
+}
+
+.comingsoon-cover {
+	text-align: right;
+	float: right;
+}
 
 .headerbeta {
 	margin: -19.5px 15px 40px;
