@@ -9,26 +9,32 @@ h1, h2, h3 {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
+html, body {
+  height: 100%;
+}
+
 .title{
 	text-align: center;
 }
 
 .comingsoon {
-	position: absolute;
+    position: relative;
   	top: 50%;
-  	-webkit-transform: translate(50%, -50%);
-  	-ms-transform: translate(50%, -50%);
-  	transform: translate(50%, -50%);
+  	-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   	color: #fff;
   	font-weight: 400;
   	font-family: ostrich_sansbold;
   	font-size: 40px;
-  	padding-right: 50%;
+    margin: 40px;
+    float: right;
 }
 
 
 
 .comingsoon-cover {
+  height: 100%;
 	text-align: left;
 	position:absolute;
 	top:0;
@@ -36,8 +42,41 @@ h1, h2, h3 {
 	bottom:0;
 	left:0;
 	margin: 0;
-	padding: 0;	
-	background: url(blurredbottle.jpg) no-repeat center center fixed; 
+	padding: 0;
+	background: url(blurredbottle.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.waitlist {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #fff;
+    font-weight: 400;
+    font-family: ostrich_sansbold;
+    font-size: 40px;
+    margin: 40px;
+    float: right;
+}
+
+
+
+.waitlist-cover {
+  height: 100%;
+  text-align: left;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin: 0;
+  padding: 0;
+  background: url(blurredbottle.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,7 +87,7 @@ h1, h2, h3 {
 
 .navbar-inverse {
 	padding: 5px 0 0 6.25px;
-	background-color: transparent; 
+	background-color: transparent;
 	border-color: transparent;
 }
 
@@ -65,7 +104,7 @@ h1, h2, h3 {
 	background-color: #fff;
 	border-color: #fff;
 	border-radius: 50px;
-	margin-bottom: 10px; 
+	margin-bottom: 10px;
 }
 
 .mini-loginbtn-container {
@@ -91,7 +130,7 @@ color: #fff;
 
 .logo{
 	height: 50px;
-	background-color: transparent; 
+	background-color: transparent;
 	margin: auto;
 	padding-left: 60px;
 }
@@ -136,7 +175,7 @@ color: #fff;
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
-    
+
 }*/
 
 .section{
@@ -190,25 +229,25 @@ color: #fff;
 }
 
 .headline > .container > h2 {
-	width : 90%; 
-	margin : auto; 
+	width : 90%;
+	margin : auto;
 	color: #ffffff;
 	text-align: center;
 	font-size: 55px;
-	font-family: ostrich_sansblack;	
-	
+	font-family: ostrich_sansblack;
+
 }
 
 .button {
 	padding: 30px 15px 0px;
-	
+
 }
 
 
 .header-image {
 			margin: 0;
-			padding: 0;	
-			background: url(corkscrew.jpg) no-repeat center center fixed; 
+			padding: 0;
+			background: url(corkscrew.jpg) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -217,7 +256,7 @@ color: #fff;
 
 .header-xs {
 			margin: 0;
-			padding: 0;	
+			padding: 0;
 			background-color: rgb(128, 0, 0);
 }
 
@@ -238,7 +277,7 @@ color: #fff;
 }
 
 
-.bandeau > h2 { width:100%; text-align:center; border-bottom: 1px solid rgba(66, 139, 202, 0.1); line-height:0.1em; margin:20px 0 20px; } 
+.bandeau > h2 { width:100%; text-align:center; border-bottom: 1px solid rgba(66, 139, 202, 0.1); line-height:0.1em; margin:20px 0 20px; }
 .bandeau > h2 span { background:#fff; padding:0 10px; }
 .bandeau > h2 span img {
 	height:70px;
@@ -287,11 +326,11 @@ color: #fff;
 .irritants{
 	text-align: justify;
 	padding-bottom: 20px;
-	background-color: #EBEBE8; 
+	background-color: #EBEBE8;
 }
 
 .irritant{
-	background-color: #EBEBE8; 
+	background-color: #EBEBE8;
 }
 
 .savoirplus{
@@ -317,7 +356,7 @@ section{
 	margin: 0 0;
 }
 .featurette {
-	overflow: hidden; 
+	overflow: hidden;
 }
 
 .featurette-image.pull-left {
@@ -347,7 +386,7 @@ section{
 .comment{
 	display: inline-block;
 	vertical-align: middle;
-  	
+
 }
 
 #contact{
@@ -399,13 +438,13 @@ section{
 }
 
 .footline > .container > h2 {
-	width : 90%; 
-	margin : auto; 
+	width : 90%;
+	margin : auto;
 	color: #ffffff;
 	text-align: center;
 	font-size: 55px;
-	font-family: bebasregular;	
-	
+	font-family: bebasregular;
+
 }
 
 .social {
@@ -443,7 +482,7 @@ section{
 
 .footer-image {
 			margin-top: 40px;
-			background: url(bouchonsNB3) no-repeat center center fixed; 
+			background: url(bouchonsNB3) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -474,7 +513,7 @@ footer {
 @media (max-width: 1024px) {
 
 .header-image {
-			background: url(corkscrewsmallipad) no-repeat center center; 
+			background: url(corkscrewsmallipad) no-repeat center center;
 			 -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -494,7 +533,7 @@ footer {
 .featurette-image.pull-right {margin-left: 10px;}
 .featurette-heading {font-size: 30px;}
 .footer-image {
-			background: url(bouchonsNB3) no-repeat center center; 
+			background: url(bouchonsNB3) no-repeat center center;
             -webkit-background-size: 100%;
             -moz-background-size: 100%;
             -o-background-size: 100%;
@@ -515,7 +554,7 @@ footer {
 	font-weight: 400;
 	padding-top: 5px;
 	padding-bottom: 3px;
-}	
+}
 .container {margin: 0 15px;}
 .featurette-divider {margin: 40px 0;}
 .featurette-heading {font-size: 25px;}
@@ -555,7 +594,7 @@ footer {
 
 .headerbeta {
 	margin: -19.5px 15px 40px;
-}	
+}
 
 .tagline > h2 {
 	padding-top: 1px;
