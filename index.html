@@ -52,6 +52,10 @@ mixpanel.init("83d53578ba547f333f46afdcb07708b3");</script><!-- end Mixpanel -->
         mixpanel.track_links("#login", 'Clicked on login' );
         mixpanel.track_links("#commande_mobile", 'Clicked on commande_mobile' );
         mixpanel.track_links("#login_mobile", 'Clicked on login_mobile' );
+        mixpanel.track('page viewed', {
+            'page name' : document.title,
+            'url' : window.location.pathname
+        });
       </script>
 
   <body>
