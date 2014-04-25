@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300|Montserrat);
 
 body {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-weight: 300;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
 h1, h2, h3 {
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 html, body {
@@ -14,19 +14,19 @@ html, body {
 }
 
 .title{
-	text-align: center;
+  text-align: center;
 }
 
 .comingsoon {
     position: relative;
-  	top: 50%;
-  	-webkit-transform: translateY(-50%);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-  	color: #fff;
-  	font-weight: 400;
-  	font-family: ostrich_sansbold;
-  	font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    font-family: ostrich_sansbold;
+    font-size: 40px;
     margin: 40px;
     float: right;
 }
@@ -35,15 +35,15 @@ html, body {
 
 .comingsoon-cover {
   height: 100%;
-	text-align: left;
-	position:absolute;
-	top:0;
-	right:0;
-	bottom:0;
-	left:0;
-	margin: 0;
-	padding: 0;
-	background: url(blurredbottle.jpg) no-repeat center center fixed;
+  text-align: left;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin: 0;
+  padding: 0;
+  background: url(blurredbottle.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -86,29 +86,29 @@ html, body {
 /* ---------------- NAVBAR ---------------- */
 
 .navbar-inverse {
-	padding: 5px 0 0 6.25px;
-	background-color: transparent;
-	border-color: transparent;
+  padding: 5px 0 0 6.25px;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .loginbtn {
-	background-color: transparent;
-	color: #ffffff;
-	padding: 10px;
-	margin-right: 15px;
-	border-radius: 50px;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 50px;
 }
 
 .mini-loginbtn {
-	color: #800000;
-	background-color: #fff;
-	border-color: #fff;
-	border-radius: 50px;
-	margin-bottom: 10px;
+  color: #800000;
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 50px;
+  margin-bottom: 10px;
 }
 
 .mini-loginbtn-container {
-	text-align: center;
+  text-align: center;
 }
 
 .btn-primary {
@@ -125,44 +125,44 @@ color: #fff;
 }
 
 #centervini{
-	test-align:center;
+  test-align:center;
 }
 
 .logo{
-	height: 50px;
-	background-color: transparent;
-	margin: auto;
-	padding-left: 60px;
+  height: 50px;
+  background-color: transparent;
+  margin: auto;
+  padding-left: 60px;
 }
 
 .logo > p {
-	height: 50px;
-	line-height: 50px;
-	font-family: quicksandlight;
-	color: #fff;
-	font-size: 45px;
-	text-shadow: 2px 2px 20px #000000;
+  height: 50px;
+  line-height: 50px;
+  font-family: quicksandlight;
+  color: #fff;
+  font-size: 45px;
+  text-shadow: 2px 2px 20px #000000;
 }
 
 .wrapper span{
-	color:white;
-	background-color:#4FADE3;
-	background-position:initial initial;
-	background-repeat:initial initial;
-	font-size:11px;
-	padding:2px 32px;
-	position:absolute;
-	right:-32px;
-	text-align:center;
-	text-transform:uppercase;
-	top:5px;
-	margin-right: 5px;
-	background:#4fade3;
-	transform:rotate(40deg);
-	-ms-transform:rotate(40deg);
-	-moz-transform:rotate(40deg);
-	-webkit-transform:rotate(40deg);
-	-o-transform:rotate(40deg);
+  color:white;
+  background-color:#4FADE3;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  font-size:11px;
+  padding:2px 32px;
+  position:absolute;
+  right:-32px;
+  text-align:center;
+  text-transform:uppercase;
+  top:5px;
+  margin-right: 5px;
+  background:#4fade3;
+  transform:rotate(40deg);
+  -ms-transform:rotate(40deg);
+  -moz-transform:rotate(40deg);
+  -webkit-transform:rotate(40deg);
+  -o-transform:rotate(40deg);
 }
 
 /*#top-shadow {
@@ -179,75 +179,75 @@ color: #fff;
 }*/
 
 .section{
-	padding-left: 40px;
-	padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 
 /* ---------------- HEADER ---------------- */
 
 .headline {
-	padding: 80px 0px 80px;
-	margin-bottom: 20px;
+  padding: 80px 0px 80px;
+  margin-bottom: 20px;
 }
 
 .headline-xs {
-	padding: 10px 0px 10px;
-	margin-bottom: 10px;
+  padding: 10px 0px 10px;
+  margin-bottom: 10px;
 }
 
 .tagline{
-	background-color: rgba(128, 0, 0, 1);
-	padding-left: 25px;
-	padding-right: 25px;
-	margin: 15px;
+  background-color: rgba(128, 0, 0, 1);
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 15px;
 }
 
 .tagline-xs{
-	color: #fff;
-	margin: 5px;
-	text-align: center;
-	padding-bottom: 20px;
+  color: #fff;
+  margin: 5px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .tagline > h2 {
-	font-family: ostrich_sansbold;
-	color: #fff;
-	font-size: 50px;
-	font-weight: 400;
-	margin-top: 15px;
-	margin-bottom: 10px;
-	/*text-shadow: 0 2px 20px #000000;*/
+  font-family: ostrich_sansbold;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  /*text-shadow: 0 2px 20px #000000;*/
 }
 
 
 .headline > .container > h1 {
-	color: #ffffff;
-	text-align: center;
-	font-size: 130px;
-	text-shadow: 3px 1px 5px #333333;
+  color: #ffffff;
+  text-align: center;
+  font-size: 130px;
+  text-shadow: 3px 1px 5px #333333;
 }
 
 .headline > .container > h2 {
-	width : 90%;
-	margin : auto;
-	color: #ffffff;
-	text-align: center;
-	font-size: 55px;
-	font-family: ostrich_sansblack;
+  width : 90%;
+  margin : auto;
+  color: #ffffff;
+  text-align: center;
+  font-size: 55px;
+  font-family: ostrich_sansblack;
 
 }
 
 .button {
-	padding: 30px 15px 0px;
+  padding: 30px 15px 0px;
 
 }
 
 
 .header-image {
-			margin: 0;
-			padding: 0;
-			background: url(corkscrew.jpg) no-repeat center center fixed;
+      margin: 0;
+      padding: 0;
+      background: url(corkscrew.jpg) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -255,234 +255,234 @@ color: #fff;
 }
 
 .header-xs {
-			margin: 0;
-			padding: 0;
-			background-color: rgb(128, 0, 0);
+      margin: 0;
+      padding: 0;
+      background-color: rgb(128, 0, 0);
 }
 
 .headerbeta {
-	padding: 0;
-	margin: -40.5px 15px 40px;
-	text-align: center;
+  padding: 0;
+  margin: -40.5px 15px 40px;
+  text-align: center;
 }
 
 .brand > img {
-	height: 45px;
+  height: 45px;
 }
 
 .beta {
-	font-family: quicksandregular;
-	padding-left: 15px;
-	/*margin-top: 10px;*/
+  font-family: quicksandregular;
+  padding-left: 15px;
+  /*margin-top: 10px;*/
 }
 
 
 .bandeau > h2 { width:100%; text-align:center; border-bottom: 1px solid rgba(66, 139, 202, 0.1); line-height:0.1em; margin:20px 0 20px; }
 .bandeau > h2 span { background:#fff; padding:0 10px; }
 .bandeau > h2 span img {
-	height:70px;
-	margin: -50%;
+  height:70px;
+  margin: -50%;
 }
 
 /* ---------------- PROPVAL ---------------- */
 
 .dessins {
-	max-height: 300px;
+  max-height: 300px;
 }
 
 .comment{
-	display:table;
+  display:table;
 }
 
 .cell{
-	display:table-cell;
+  display:table-cell;
     vertical-align:middle;
 }
 
 .propval {
-	text-align: center;
+  text-align: center;
 }
 
 .propval > p {
-	height: 100%;
-	line-height: 100%
+  height: 100%;
+  line-height: 100%
 }
 
 .tnp{
-	text-align: center;
-	padding: 0px 15px 5px;
+  text-align: center;
+  padding: 0px 15px 5px;
 }
 
 .propval, .irritant {
-	text-align: center;
-	padding: 10px 0px 5px 0px;
+  text-align: center;
+  padding: 10px 0px 5px 0px;
 }
 
 .tnp > h3 {
-	text-align: center;
-	font-size: 16px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .irritants{
-	text-align: justify;
-	padding-bottom: 20px;
-	background-color: #EBEBE8;
+  text-align: justify;
+  padding-bottom: 20px;
+  background-color: #EBEBE8;
 }
 
 .irritant{
-	background-color: #EBEBE8;
+  background-color: #EBEBE8;
 }
 
 .savoirplus{
-	text-align: center;
+  text-align: center;
 }
 
 .propcontent{
-	padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .propcontent > h3{
-	text-align: center;
+  text-align: center;
 }
 
 /* ---------------- FEATURETTES ---------------- */
 
 section{
-	display: inline-block;
-	vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .featurette-divider {
-	margin: 0 0;
+  margin: 0 0;
 }
 .featurette {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .featurette-image.pull-left {
-	margin-right: 40px;
+  margin-right: 40px;
 }
 .featurette-image.pull-right {
-	margin-left: 40px;
+  margin-left: 40px;
 }
 
 .featurette-image{
-	width: 150px;
+  width: 150px;
 }
 
 .featurette-heading {
-	font-size: 30px;
+  font-size: 30px;
 }
 
 .commentcamarche {
-	padding: 40px;
+  padding: 40px;
 
 }
 
 .commentcamarchefin{
-	padding-top: 40px;
+  padding-top: 40px;
 }
 
 .comment{
-	display: inline-block;
-	vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 
 }
 
 #contact{
-	text-align: justify;
-	padding-bottom: 10px;
+  text-align: justify;
+  padding-bottom: 10px;
 }
 
 #main{
-	text-align: justify;
+  text-align: justify;
 }
 
 #selection{
-	text-align: justify;
+  text-align: justify;
 }
 
 #about{
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 #services{
-	margin:20px;
+  margin:20px;
 }
 
 
 .soif{
-	margin: 75px;
+  margin: 75px;
 }
 
 #img-contact{
-	vertical-align: middle;
-	margin: auto;
+  vertical-align: middle;
+  margin: auto;
 }
 
 #main, #selection, #contact > p {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 /* ---------------- FOOTER ---------------- */
 
 .footline {
-	padding: 160px 0px 160px;
+  padding: 160px 0px 160px;
 }
 
 .footline > .container > h1 {
-	color: #ffffff;
-	text-align: center;
-	font-size: 130px;
-	text-shadow: 3px 1px 5px #333333;
+  color: #ffffff;
+  text-align: center;
+  font-size: 130px;
+  text-shadow: 3px 1px 5px #333333;
 }
 
 .footline > .container > h2 {
-	width : 90%;
-	margin : auto;
-	color: #ffffff;
-	text-align: center;
-	font-size: 55px;
-	font-family: bebasregular;
+  width : 90%;
+  margin : auto;
+  color: #ffffff;
+  text-align: center;
+  font-size: 55px;
+  font-family: bebasregular;
 
 }
 
 .social {
-	text-align: center;
-	margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .socbuttons{
-	padding: 10px;
+  padding: 10px;
 }
 
 
 /*.line {
-	background: #333;
-	box-shadow: 0 1px 0 rgba(255,255,255,0.75);
-	height: 2px;
+  background: #333;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.75);
+  height: 2px;
 }
 
 .lineleft{
-	padding: 30px;
+  padding: 30px;
 }*/
 
 
 /*.social > img {
-	margin: 20px;
+  margin: 20px;
 }*/
 
 
 
 .separateur{
-	height: 13vh;
+  height: 13vh;
 }
 
 
 
 .footer-image {
-			margin-top: 40px;
-			background: url(bouchonsNB3) no-repeat center center fixed;
+      margin-top: 40px;
+      background: url(bouchonsNB3) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -494,7 +494,7 @@ section{
 
 
 footer {
-	margin: 20px 0;
+  margin: 20px 0;
 }
 
 
@@ -513,19 +513,19 @@ footer {
 @media (max-width: 1024px) {
 
 .header-image {
-			background: url(corkscrewsmallipad) no-repeat center center;
-			 -webkit-background-size: cover;
+      background: url(corkscrewsmallipad) no-repeat center center;
+       -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
 }
 .tagline > h2 {
-	font-family: ostrich_sansblack;
-	font-size: 30px;
-	font-weight: 400;
-	padding-top: 9px;
-	padding-bottom: 6px;
-	/*text-shadow: 0 2px 20px #000000;*/
+  font-family: ostrich_sansblack;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 9px;
+  padding-bottom: 6px;
+  /*text-shadow: 0 2px 20px #000000;*/
 }
 .featurette-divider {margin: 40px 0;}
 .featurette-image {max-width: 50%;}
@@ -533,7 +533,7 @@ footer {
 .featurette-image.pull-right {margin-left: 10px;}
 .featurette-heading {font-size: 30px;}
 .footer-image {
-			background: url(bouchonsNB3) no-repeat center center;
+      background: url(bouchonsNB3) no-repeat center center;
             -webkit-background-size: 100%;
             -moz-background-size: 100%;
             -o-background-size: 100%;
@@ -549,11 +549,11 @@ footer {
 @media (max-width: 768px) {
 
 .tagline > h2 {
-	font-family: ostrich_sansblack;
-	font-size: 20px;
-	font-weight: 400;
-	padding-top: 5px;
-	padding-bottom: 3px;
+  font-family: ostrich_sansblack;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 3px;
 }
 .container {margin: 0 15px;}
 .featurette-divider {margin: 40px 0;}
@@ -574,75 +574,75 @@ footer {
 @media (max-width: 640px) {
 
 .comingsoon {
-	text-align: right;
-  	-webkit-transform: translate(0, -50%);
-  	-ms-transform: translate(0, -50%);
-  	transform: translate(0, -50%);
-  	color: #fff;
-  	font-weight: 400;
-  	font-family: Open Sans;
-  	font-size: 15px;
-  	padding-right: 20px;
-  	padding-left: 50%;
+  text-align: right;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font-weight: 400;
+    font-family: Open Sans;
+    font-size: 15px;
+    padding-right: 20px;
+    padding-left: 50%;
 
 }
 
 .comingsoon-cover {
-	text-align: right;
-	float: right;
+  text-align: right;
+  float: right;
 }
 
 .headerbeta {
-	margin: -19.5px 15px 40px;
+  margin: -19.5px 15px 40px;
 }
 
 .tagline > h2 {
-	padding-top: 1px;
-	padding-bottom: 1px;
-	font-family: ASAP;
-	font-size: 13px;
-	font-weight: 400;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-family: ASAP;
+  font-size: 13px;
+  font-weight: 400;
 }
 .btn-primary{
-	font-size: 13px;
-	font-family: ASAP;
+  font-size: 13px;
+  font-family: ASAP;
 }
 }
 
 @media (max-width: 375px) {
 
 h1 {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 h3 {
-	font-size: 15px;
+  font-size: 15px;
 }
 
 .section {
-	padding: 0px;
+  padding: 0px;
 }
 
 .commentcamarche h2 {
-	text-align: center;
-	font-size: 17px;
+  text-align: center;
+  font-size: 17px;
 }
 
 #main, #selection, #contact > p {
-	text-align: center;
-	font-size: 14px;
+  text-align: center;
+  font-size: 14px;
 }
 
 .commentcamarchefin h2 {
-	text-align: center;
-	font-size: 17px;
+  text-align: center;
+  font-size: 17px;
 }
 
 #selection {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .ymm-how-to .heading h3 {
-	font-size: 19px;
+  font-size: 19px;
 }
 }
