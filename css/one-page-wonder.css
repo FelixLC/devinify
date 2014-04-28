@@ -123,9 +123,15 @@ html, body {
       font-family: ostrich_sansbold;
       font-size: 40px;
       margin: 40px;
+    }
+
 }
 
+@media (max-width: 748px) {
 
+    .waitlist {
+      margin: 10px;
+    }
 }
 
 /* ---------------- NAVBAR ---------------- */
