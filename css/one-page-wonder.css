@@ -25,6 +25,10 @@ html, body {
 
 }
 
+.main-content {
+  background-color: #FFFFFF;
+}
+
 .title{
   text-align: center;
 }
@@ -576,7 +580,7 @@ footer {
 @media (max-width: 1024px) {
 
 .header-image {
-      background: url(corkscrewsmallipad) no-repeat center center;
+      background: url(corkscrewsmall.png) no-repeat center center;
        -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
